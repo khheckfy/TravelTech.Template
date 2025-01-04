@@ -2,14 +2,14 @@
 
 ## Package Installation
 
-You can install this template using [NuGet](https://www.nuget.org/packages/AspNetCoreTemplate):
+You can install this template using [NuGet](https://www.nuget.org/packages/TravelTech.Template):
 
 ```powershell
 dotnet new install .\TravelTech.Template
 ```
 
 ```powershell
-dotnet new aspnet-core -n TravelTech.Template
+dotnet new core-project-template -n TravelTech.EmailSender
 ```
 
 ## Pack this Template
