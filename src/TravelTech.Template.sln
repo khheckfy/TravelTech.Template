@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8D79A8E-8BC8-4A8C-A9DC-37F3E9B96CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelTech.Template.Presentation", "TravelTech.Template.Presentation\TravelTech.Template.Presentation.csproj", "{CB0CA430-847D-45FE-ADE9-810AB3A0B90E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelTech.Template.Domain", "TravelTech.Template.Domain\TravelTech.Template.Domain.csproj", "{9EC213D3-BB71-46D0-A637-65E9BA501516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelTech.Template.DomainServices", "TravelTech.Template.DomainServices\TravelTech.Template.DomainServices.csproj", "{60A61BBB-4C70-4BF4-9B0D-730669A47AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelTech.Template.Infrastructure", "TravelTech.Template.Infrastructure\TravelTech.Template.Infrastructure.csproj", "{EF911845-6FBB-4D47-AF48-CDE1E78D1074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelTech.Template.Repository", "TravelTech.Template.Repository\TravelTech.Template.Repository.csproj", "{2F7021B7-C8A3-40D8-AD71-3D4FC97410F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "properties", "properties", "{866859A9-6BA2-4BE0-AE9A-2D4F44A0EA70}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB0CA430-847D-45FE-ADE9-810AB3A0B90E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0CA430-847D-45FE-ADE9-810AB3A0B90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0CA430-847D-45FE-ADE9-810AB3A0B90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0CA430-847D-45FE-ADE9-810AB3A0B90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC213D3-BB71-46D0-A637-65E9BA501516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC213D3-BB71-46D0-A637-65E9BA501516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC213D3-BB71-46D0-A637-65E9BA501516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC213D3-BB71-46D0-A637-65E9BA501516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A61BBB-4C70-4BF4-9B0D-730669A47AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A61BBB-4C70-4BF4-9B0D-730669A47AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A61BBB-4C70-4BF4-9B0D-730669A47AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A61BBB-4C70-4BF4-9B0D-730669A47AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF911845-6FBB-4D47-AF48-CDE1E78D1074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF911845-6FBB-4D47-AF48-CDE1E78D1074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF911845-6FBB-4D47-AF48-CDE1E78D1074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF911845-6FBB-4D47-AF48-CDE1E78D1074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7021B7-C8A3-40D8-AD71-3D4FC97410F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7021B7-C8A3-40D8-AD71-3D4FC97410F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7021B7-C8A3-40D8-AD71-3D4FC97410F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7021B7-C8A3-40D8-AD71-3D4FC97410F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB0CA430-847D-45FE-ADE9-810AB3A0B90E} = {C8D79A8E-8BC8-4A8C-A9DC-37F3E9B96CF0}
+		{9EC213D3-BB71-46D0-A637-65E9BA501516} = {C8D79A8E-8BC8-4A8C-A9DC-37F3E9B96CF0}
+		{60A61BBB-4C70-4BF4-9B0D-730669A47AC0} = {C8D79A8E-8BC8-4A8C-A9DC-37F3E9B96CF0}
+		{EF911845-6FBB-4D47-AF48-CDE1E78D1074} = {C8D79A8E-8BC8-4A8C-A9DC-37F3E9B96CF0}
+		{2F7021B7-C8A3-40D8-AD71-3D4FC97410F1} = {C8D79A8E-8BC8-4A8C-A9DC-37F3E9B96CF0}
+	EndGlobalSection
+EndGlobal

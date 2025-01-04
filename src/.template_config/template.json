@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Travel Tech by Khusainov Ruslan",
+  "classifications": [ "ASP.NET Core", "Core", "MVC", "Template", "Web" ],
+  "identity": "TravelTech.Template",
+  "name": "TravelTech .NET Core Template",
+  "shortName": "core-project-template",
+  "sourceName": "TravelTech.Template",
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ "src/.vs/**", ".template_config/**", ".idea/**" ]
+        }
+      ]
+    }
+  ],
+  "symbols": {
+    "skipRestore": {
+      "type": "parameter",
+      "datatype": "bool",
+      "description": "If specified, skips the automatic restore of the project on create.",
+      "defaultValue": "false"
+    }
+  },
+  "tags": {
+    "language": "C#"
+  }
+}
